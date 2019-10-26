@@ -14,10 +14,12 @@ KUKA IIWA Modeling  and control
 
 ##CHANGELOG
 
-#imp_control
-
+#imp_Moveit
 -created iiwa7_v2.sdf
 -changed joint limite
+
+#imp_control
+-add Rx, RZ to iiwa_control/src/iiwa_sunrise.py 
 
 
 
