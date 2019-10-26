@@ -14,6 +14,10 @@ KUKA IIWA Modeling  and control
 
 ##CHANGELOG
 
+#imp_description 
+-creat iiwa7_v2.udf.xacro
+#imp_launch
+-creat new launch filse iiwa7_v2
 #imp_Moveit
 -created iiwa7_v2.sdf
 -changed joint limite
@@ -21,6 +25,9 @@ KUKA IIWA Modeling  and control
 #imp_control
 -add Rx, RZ to iiwa_control/src/iiwa_sunrise.py 
 
+#remove filse and folder in Master branch 
+
+#All backup filse store in Cleanging branch
 
 
 
