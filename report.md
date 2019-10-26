@@ -27,7 +27,7 @@ KUKA IIWA Modeling  and control
 
 #remove filse and folder in Master branch 
 
-#All backup filse store in Cleanging branch
+#All backup filses store in Cleanging branch
 
 
 
