@@ -14,3 +14,16 @@ KUKA IIWA Modeling  and control
 
 ##CHANGELOG
 
+#imp_control
+
+-created iiwa7_v2.sdf
+-changed joint limite
+
+
+
+
+
+
+
+
+
