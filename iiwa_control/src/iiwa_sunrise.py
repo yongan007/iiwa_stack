@@ -74,6 +74,20 @@ def Rz(tz):
                  [ sz,  cz, 0.0],
                  [0.0, 0.0, 1.0]])
 
+def Rx(tz):
+  (cz, sz) = trigonometry(tz)
+  return matrix([[ cz, -sz, 0.0],
+                 [ sz,  cz, 0.0],
+                 [0.0, 0.0, 1.0]])
+
+def Ry(tz):
+  (cz, sz) = trigonometry(tz)
+  return matrix([[ cz, -sz, 0.0],
+                 [ sz,  cz, 0.0],
+                 [0.0, 0.0, 1.0]])
+
+
+
 def Ryz(ty, tz):
   (cy, sy) = trigonometry(ty)
   (cz, sz) = trigonometry(tz)
@@ -261,3 +275,4 @@ class IiwaSunrise(object):
 
 if __name__ == "__main__":
   ik = IiwaSunrise()
+	
